@@ -1,21 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 body {
-    display: grid;
-    grid-template-columns: 0.25fr 1fr 0.25fr;
+    /* display: grid; */
+    /* grid-template-columns: 0.25fr 1fr 0.25fr; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 main {
+
     grid-column: 2 / 3;
+    border: 2px solid grey;
+
+    width: 55%;
+    height: 750px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Strictly speaking the font used on the example is the minion pro font family */
+    font-family: "Crimson Text", serif;
+
+    margin-top: 50px;
 }
 h1 {
     text-align: center;
+    width: 60%;
+
+    font-size: 3em;
 }
 h2 {
     text-align: center;
+    width: 60%;
+
+    margin-top: 0;
+
+    font-size: 1.25em;
+    color: royalblue;
+    /* text-decoration: underline; */
+}
+p {
+    width: 60%;
+}
+ol {
+    width: 60%;
+    
+    margin-bottom: 50px;
+}
+ol li {
+    margin-bottom: 25px;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
+    height: 75px;
     width: auto;
+    
 }
