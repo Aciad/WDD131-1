@@ -6,6 +6,5 @@ menuButton.addEventListener('click', ShowMenu);
 
 function ShowMenu() {
     menu.classList.toggle("hidden");
-    console.log(menu.className)
     menuButton.classList.toggle("change");
 }
