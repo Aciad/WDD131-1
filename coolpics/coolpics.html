@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="coolpics.css">
+    <script src="coolpics.js" defer></script>
     <title>Cool Pics</title>
 </head>
 <body>
     <header>
         <h1>Cool Pics 📷</h1>
-        <nav class="menu">
-            <ul>
-                <li><a>NOTHING YET????</a></li>
-                <li><a>NOTHING YET????</a></li>
-                <li><a>NOTHING YET????</a></li>
-            </ul>
-        </nav>
+        <div class="row">
+            <button class="menu-btn">
+                <h1>Menu</H1>
+            </button>
+            <nav class="menu hidden">
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>People</a></li>
+                    <li><a>Places</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <h1>Current Work</h1>
@@ -30,6 +38,10 @@
             <img src="https://wddbyui.github.io/wdd131/images/norris-sm.jpg">
             <img src="https://wddbyui.github.io/wdd131/images/norris-sm.jpg">
         </div>
+        <dialog>
+            <img>
+            <button class="close-viewer">X</button>
+        </dialog>
     </main>
     <footer>
         <h2>Couldn't read what was here on the example image</h2>
