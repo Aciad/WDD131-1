@@ -40,7 +40,7 @@ main {
     border-top: 3px solid var(--border-color);
     padding: 25px;
     padding-top: 10px;
-
+    
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
