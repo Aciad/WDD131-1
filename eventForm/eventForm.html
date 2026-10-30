@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="eventForm.css">
+    <script src="eventForm.js" defer></script>
+    <title>EventForm</title>
+    <link rel="icon" type="image/png" href="wagone.jpg">
+
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Event Ticket</h2>
+            <form id="input-form" class="input-form">
+                <div class="fname">
+                    <label for="fname" required>First Name:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="lname">
+                    <label for="lname" required>Last Name:</label>
+                    <input type="text" id="lname" name="lname">
+                </div>
+                <div class="email">
+                    <label for="email" required>Email Address</label> <br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="type">
+                    <label for="ticket-type">Type</label> <br>
+                    <select id="ticket-type" name="type">
+                        <option value="default">Choose One</option>
+                        <option value="student">Student</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                </div>
+                <div class="date">
+                    <label for="event-date" required>Event Date</label> <br>
+                    <input type="date" id="event-date" name="date">
+                </div>
+                <div id="sub-id" class="sub-id, hidden">
+                    <label>Student Id Number:</label>
+                    <input type="text" id="idnum" name="idnum">
+                </div>
+                <div id="sub-accesscode" class="sub-accesscode, hidden">
+                    <label for="acode">Acess Code</label>
+                    <input type="text" id="acode" name="acode">
+                </div>
+                <div class="button">
+                    <button id="button" type="submit">Create Ticket</button>
+                </div>
+                
+            </form>
+            <p id="output">
+
+            </p>
+        </section>
+    </main>
+</body>
+</html>
